@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+.main {
+  width: 70%;
+  margin: 0 auto;
+  background-color:#F1F4F9
+}
+
+nav {
+    font-family: "BioRhyme", serif;
+  display: flex;
+  justify-content: space-around;
+  position:sticky;
+  top: 15px;
+  background-color:#ebd7e4;
+  height:35px
+  
+}
+
+.splash {      
+  width: 100%;
+}
+.products {
+  display: flex;
+  justify-content: space-around;
+}
+.product {
+  width: 30%;
+}
+.productImg {
+  width: 100%;
+}
+
+p{ font-family: "BioRhyme", serif;
+    font-size: 3vw;}
+
+@media screen and (max-width:480px) {
+  div{flex-direction: column;
+  margin: 0 auto;}
+    nav{flex-direction: column;
+    text-align:center;}
+}
+  
+a{
+    color:black;
+}
