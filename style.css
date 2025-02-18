@@ -30,6 +30,35 @@ nav {
   width: 100%;
 }
 
+.container {
+  position:relative;
+  text-align: center;
+  color:#F1F4F9;
+}
+
+
+
+.centered p{
+  position: absolute;
+  top:25%;
+  left:50%;
+  transition: translate(-50%, -50%);
+  background:#ebd7e4;
+  font-size:80px;
+  padding-bottom: 15px;
+  width:700px;
+} 
+
+.centered{
+  font-family:"BioRhyme", serif ;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
 p{ font-family: "BioRhyme", serif;
     font-size: 3vw;}
 
